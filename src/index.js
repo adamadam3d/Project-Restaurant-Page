@@ -12,7 +12,8 @@ hbutton.innerHTML = 'Home'
 mbutton.innerHTML = 'Menu'
 cbutton.innerHTML = 'Contact'
 hbutton.addEventListener('click', () => {
-    alert('Hom')
+    content.innerHTML = ''
+    Home()
 })
 mbutton.addEventListener('click', () => {
     content.innerHTML = ''

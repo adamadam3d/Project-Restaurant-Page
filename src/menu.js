@@ -2,6 +2,7 @@ import pic from './1.png'
 import taco from './pic1.png'
 export default function component(){
     const content = document.querySelector('#content')
+    content.classList.remove('home')
     const pic1 = new Image()
     const pic2 = new Image()
     pic2.src = taco
